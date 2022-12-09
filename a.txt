@@ -1,0 +1,3 @@
+canyesilyurt.com
+localhost:8888
+localhost:8787
