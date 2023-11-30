@@ -1,0 +1,296 @@
+body {
+    background: rgb(246, 242, 242);
+    background: radial-gradient(circle, rgba(246, 242, 242, 1) 0%, rgba(210, 210, 210, 1) 100%);
+    zoom: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    user-select: none;
+
+                                  
+}
+
+#opening {
+    width: 500px;
+    height: 400px;
+    background-color: #2EA9DA;
+    box-shadow: 0px 4px rgb(25, 106, 138);
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#startgame {
+    width: 350px;
+    height: 70px;
+    background-color: rgb(110, 235, 197);
+    box-shadow: 0px 4px rgb(15, 100, 75);
+    position: absolute;
+    left: 75px;
+    top: 155.5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Sniglet', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+#inst{
+    font-family: 'Sniglet', cursive; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: rgb(48, 17, 107);
+    position:relative;
+    top: 100px;
+}
+#inst2,#inst3{
+    font-family: 'Sniglet', cursive; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position:relative;
+    top: 200px;
+}
+#startgame:hover {
+    background-color: rgb(252, 150, 66);
+    box-shadow: 0px 4px rgb(139, 70, 14);
+}
+
+#startgame:active {
+    top: 159.5px;
+    box-shadow: 0px 0px rgb(139, 70, 14);
+}
+
+#startquiz {
+    width: 500px;
+    height: 400px;
+    background-color: #2EA9DA;
+    box-shadow: 0px 4px rgb(25, 106, 138);
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 10px;
+    display: none;
+
+}
+
+#score {
+    width: 100px;
+    height: 30px;
+    background-color: #2eda76;
+    box-shadow: 0px 4px rgb(25, 138, 40);
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-family: 'Sniglet', cursive;
+
+}
+#correct {
+    width: 100px;
+    height: 20px;
+    background-color: #2eda76;
+    position: absolute;
+    left: 200px;
+    top: 47px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-family: 'Sniglet', cursive;
+display: none;
+}
+#wrong {
+    width: 100px;
+    height: 20px;
+    background-color: #e63e3e;
+    position: absolute;
+    left: 200px;
+    top: 47px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-family: 'Sniglet', cursive;
+    display: none;
+   
+}
+
+#questions {
+    width: 350px;
+    height: 70px;
+    background-color: rgb(110, 235, 197);
+    box-shadow: 0px 4px rgb(15, 100, 75);
+    position: absolute;
+    left: 75px;
+    top: 70px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    font-family: 'Sniglet', cursive;
+    font-size: 15px;
+}
+
+#options {
+    width: 350px;
+    height: 180px;
+    background-color: rgb(230, 201, 38);
+    box-shadow: 0px 4px rgb(134, 119, 31);
+    position: absolute;
+    left: 75px;
+    top: 150px;
+    border-radius: 10px;
+
+}
+
+.choice {
+
+    width: 120px;
+    height: 60px;
+    background-color: rgb(211, 208, 208);
+    box-shadow: 0px 4px rgb(109, 109, 109);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-family: 'Sniglet', cursive;
+    cursor: pointer;
+    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+}
+
+#choice1 {
+    left: 30px;
+    top: 55px;
+}
+
+#choice2 {
+    left: 200px;
+    top: 55px;
+}
+
+
+/* browsers don't support the hover css , turn this on if u want to try it on pc
+/*#choice1:hover {
+
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 4px rgb(158, 70, 154);
+}
+
+#choice2:hover {
+
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 4px rgb(158, 70, 154);
+}
+
+#choice3:hover {
+
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 4px rgb(158, 70, 154);
+}
+
+#choice4:hover {
+
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 4px rgb(158, 70, 154);
+}
+
+/*#choice1:active {
+    top: 14px;
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 0px rgb(158, 70, 154);
+}
+
+#choice2:active {
+    top: 14px;
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 0px rgb(158, 70, 154);
+}
+
+#choice3:active {
+    top: 114px;
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 0px rgb(158, 70, 154);
+}
+
+#choice4:active {
+    top: 114px;
+    background-color: rgb(233, 151, 229);
+    box-shadow: 0px 0px rgb(158, 70, 154);
+}*/
+
+
+
+
+#start {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(231, 105, 105);
+    box-shadow: 0px 4px rgb(177, 31, 31);
+    border-radius: 10px;
+    position: absolute;
+    left: 190px;
+    top: 350px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: 'Sniglet', cursive;
+
+}
+
+#start:hover {
+
+    background-color: rgb(223, 61, 61);
+    box-shadow: 0px 4px rgb(100, 16, 16);
+    color: white;
+}
+
+#start:active {
+    top: 354px;
+    box-shadow: 0px 0px rgb(177, 31, 31);
+}
+
+#timeremaining {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(218, 156, 218);
+    box-shadow: 0px 2px rgb(148, 27, 148);
+    border-radius: 100px;
+    position: absolute;
+    left: 375px;
+    top: 350px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: 'Sniglet', cursive;
+
+}
+
+#endgame{
+    width: 350px;
+    height: 260px;
+    background-color: rgb(110, 235, 197);
+    box-shadow: 0px 4px rgb(15, 100, 75);
+    position: absolute;
+    left: 75px;
+    top: 70px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-family: 'Sniglet', cursive; 
+    font-size: 1.5em;
+    display: none;
+}
