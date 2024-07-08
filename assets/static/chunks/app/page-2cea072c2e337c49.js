@@ -444,7 +444,7 @@
                                                                         children: (0, s.jsx)("div", {
                                                                             className: " text-wrap text-primary",
                                                                             children:
-                                                                                `💎 You caught me! now we're going with you in ${countdown} seconds!`,
+                                                                                `💎 I knew you wanted me! now we're going with you in ${countdown} seconds!`,
                                                                         }),
                                                                     }),
                                                                 ]);
@@ -458,7 +458,7 @@
                                                                             children: (0, s.jsx)("div", {
                                                                                 className: " text-wrap text-primary",
                                                                                 children:
-                                                                                    `💎 You caught me! now we're going with you in ${countdown} seconds!`,
+                                                                                    `💎 I knew you wanted me! now we're going with you in ${countdown} seconds!`,
                                                                             }),
                                                                         }),
                                                                     ]);
