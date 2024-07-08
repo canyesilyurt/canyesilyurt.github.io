@@ -436,8 +436,83 @@
                                                                     o([...l, (0, s.jsx)(k.bs, { children: "What is your point man?" })]);
                                                                     break;
                                                                 case "cy4udev":
-                                                                    let countdown = 5;
+                                                                let countdown = 5;
 
+                                                                o([
+                                                                    ...l,
+                                                                    (0, s.jsx)(k.bs, {
+                                                                        children: (0, s.jsx)("div", {
+                                                                            className: " text-wrap text-primary",
+                                                                            children:
+                                                                                `💎 You caught me! now we're going with you in ${countdown} seconds!`,
+                                                                        }),
+                                                                    }),
+                                                                ]);
+
+                                                                const intervalId = setInterval(() => {
+                                                                    countdown -= 1;
+
+                                                                    o([
+                                                                        ...l,
+                                                                        (0, s.jsx)(k.bs, {
+                                                                            children: (0, s.jsx)("div", {
+                                                                                className: " text-wrap text-primary",
+                                                                                children:
+                                                                                    `💎 You caught me! now we're going with you in ${countdown} seconds!`,
+                                                                            }),
+                                                                        }),
+                                                                    ]);
+                                                                    if (countdown <= 0) {
+                                                                        clearInterval(intervalId);
+                                                                        // window.open('https://cy4u.dev', '_blank'); // Yeni sekme aç
+                                                                        window.location.href = 'https://cy4u.dev';
+                                                                    }
+                                                                }, 1000); 
+
+                                                              /*    o([
+                                                                    ...l,
+                                                                    (0, s.jsx)(k.bs, {
+                                                                        children: (0, s.jsx)("span", {
+                                                                            className: "text-primary text-wrap ",
+                                                                            children: (0, s.jsxs)({
+                                                                                className: "text-underline",
+                                                                                target: "_blank",
+                                                                                children: ["💎 You caught me! now we're going with you in", (0, s.jsxs)("span", { className: "text-destructive", children: [" ", countdown, " seconds!"] }),],
+                                                                            }),
+                                                                        }),
+                                                                    }),
+                                                                ]);
+
+                                                                const intervalId = setInterval(() => {
+                                                                    countdown -= 1;
+
+                                                                    o([
+                                                                        ...l,
+                                                                        (0, s.jsx)(k.bs, {
+                                                                            children: (0, s.jsx)("span", {
+                                                                                className: "text-primary text-wrap ",
+                                                                                children: (0, s.jsxs)({
+                                                                                    className: "text-underline",
+                                                                                    target: "_blank",
+                                                                                    children: ["💎 You caught me! now we're going with you in", (0, s.jsxs)("span", { className: "text-destructive", children: [" ", countdown, " seconds!"] }),],
+                                                                                }),
+                                                                            }),
+                                                                        }),
+                                                                    ]);
+                                                                    if (countdown <= 0) {
+                                                                        clearInterval(intervalId);
+                                                                        // window.open('https://cy4u.dev', '_blank'); // Yeni sekme aç
+                                                                        window.location.href = 'https://cy4u.dev';
+                                                                    }
+                                                                }, 1000); */
+
+
+
+
+
+
+
+/* 
                                                                     o([...l, (0, s.jsx)(k.bs, { children: `You caught me, now we're going with you in ${countdown} seconds 💎` })]);
 
                                                                     const intervalId = setInterval(() => {
@@ -450,7 +525,7 @@
                                                                             // window.open('https://cy4u.dev', '_blank'); // Yeni sekme aç
                                                                             window.location.href = 'https://cy4u.dev';
                                                                         }
-                                                                    }, 1000);
+                                                                    }, 1000); */
                                                                     break;
                                                                 case "x":
                                                                     o([
@@ -609,6 +684,21 @@
                                                                      ],
                                                                  }), */
 
+                                                                  (0, s.jsxs)("a", {
+                                                                     className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover  transition-all",
+                                                                     href: "https://x.com/cybusy",
+                                                                     target: "_blank",
+                                                                     children: [
+                                                                         (0, s.jsx)(Z.Z, { size: 32 }),
+                                                                         (0, s.jsxs)("div", {
+                                                                             className: "ml-2 flex flex-col items-start",
+                                                                             children: [
+                                                                                 (0, s.jsx)("span", { children: "@cybusy" }),
+                                                                                 (0, s.jsx)("span", { className: " text-sm font-normal", children: "I post about development and life." }),
+                                                                             ],
+                                                                         }),
+                                                                     ],
+                                                                 }),
                                                                 (0, s.jsxs)("a", {
                                                                     className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover  transition-all",
                                                                     href: "https://www.linkedin.com/in/canyesilyurt/",
