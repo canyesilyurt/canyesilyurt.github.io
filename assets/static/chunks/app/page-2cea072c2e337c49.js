@@ -273,7 +273,7 @@
             });
             _.displayName = P.gb.displayName;
             let U = [
-                { time: "July 2023", title: "🇬🇧 A company application for cy4udev has been submitted in the United Kingdom", body: "Limited company application has been made in the UK and now cy4udev is officially a company operating in the UK." },
+                { time: "July 2024", title: "🇬🇧 A company application for cy4udev has been submitted in the United Kingdom", body: "Limited company application has been made in the UK and now cy4udev is officially a company operating in the UK." },
                 { time: "July 2023", title: "\uD83C\uDF08 Founded an business named cy4udev", body: "This is my second small business venture. As a freelance developer, I opened this company because I wanted to operate under my company name again. Now I do everything I receive and complete under the name cy4udev." },
                 { time: "August 2021", title: "💼 Founder & Back-End Developer at Eventteyiz", body: "With the end of Covid-19, I developed a project where people can search for events and discover places to have fun. This project ended because it did not progress as efficiently as I wanted." },
                 { time: "July 2021", title: "💼 Back-End Developer at GopCity", body: "We develop joint projects periodically." },
