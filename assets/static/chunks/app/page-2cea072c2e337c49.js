@@ -440,7 +440,7 @@
                                                                             children: (0, s.jsx)("div", {
                                                                                 className: " text-wrap text-primary",
                                                                                 children:
-                                                                                    "lovusila",
+                                                                                    "lovusilaa",
                                                                             }),
                                                                         }),
                                                                     ]);
