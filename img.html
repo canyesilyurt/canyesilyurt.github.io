@@ -8,7 +8,7 @@
 <body>
     <img id="dynamic-image" alt="Dynamic Product Image" />
 
-    <script>
+       <script>
         // Get the URL parameters
         const params = new URLSearchParams(window.location.search);
 
@@ -29,12 +29,12 @@
             } else {
                 // Display a message if the img element is not found
                 const imgElement = document.getElementById('dynamic-image');
-                imgElement.src = 'product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg';
+                imgElement.src = 'https://img.kwcdn.com/product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg';
             }
         } else {
             // Display a message if the 'path' parameter is missing
             const imgElement = document.getElementById('dynamic-image');
-            imgElement.src = 'product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg';
+            imgElement.src = 'https://img.kwcdn.com/product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg';
         }
     </script>
 </body>
