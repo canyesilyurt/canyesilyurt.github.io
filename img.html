@@ -6,8 +6,6 @@
     <title>Dynamic Image Redirect</title>
 </head>
 <body>
-    <div id="image-container"></div>
-
     <script>
         // Get the URL parameters
         const params = new URLSearchParams(window.location.search);
@@ -25,9 +23,8 @@
             imgElement.src = newImageURL;
             imgElement.alt = 'Dynamic Product Image';
 
-            // Add the img element to the container
-            const imageContainer = document.getElementById('image-container');
-            imageContainer.appendChild(imgElement);
+            // Add the img element directly to the body
+            document.body.appendChild(imgElement);
         } else {
             // Display a message if the 'path' parameter is missing
             const message = document.createElement('p');
