@@ -1,3 +1,5 @@
+<img id="dynamic-image" alt="Dynamic Product Image" />
+
     <script>
         // Get the URL parameters
         const params = new URLSearchParams(window.location.search);
@@ -10,12 +12,18 @@
             // Construct new image URL
             const newImageURL = `https://img.kwcdn.com/${dynamicPart}`;
 
-            // Create an img element
-            const imgElement = document.createElement('img');
-            imgElement.src = newImageURL;
+            // Find the existing img element by id
+            const imgElement = document.getElementById('dynamic-image');
 
-            // Add the img element directly to the body
-            document.body.appendChild(imgElement);
+            // Update the src attribute of the existing img element
+            if (imgElement) {
+                imgElement.src = newImageURL;
+            } else {
+                // Display a message if the img element is not found
+                const message = document.createElement('p');
+                message.textContent = 'Image element not found on the page.';
+                document.body.appendChild(message);
+            }
         } else {
             // Display a message if the 'path' parameter is missing
             const message = document.createElement('p');
