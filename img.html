@@ -1,21 +1,25 @@
-<script>
-    // Get the URL parameters
-    const params = new URLSearchParams(window.location.search);
+    <script>
+        // Get the URL parameters
+        const params = new URLSearchParams(window.location.search);
 
-    // Check if 'path' parameter exists
-    if (params.has('path')) {
-        // Get the value of 'path' parameter
-        const dynamicPart = params.get('path');
+        // Check if 'path' parameter exists
+        if (params.has('path')) {
+            // Get the value of 'path' parameter
+            const dynamicPart = params.get('path');
 
-        // Construct new image URL
-        const newImageURL = `https://img.kwcdn.com${dynamicPart}`;
+            // Construct new image URL
+            const newImageURL = `https://img.kwcdn.com/${dynamicPart}`;
 
-        // Redirect to the new image URL
-        window.location.href = newImageURL;
-    } else {
-        // Display a message if the 'path' parameter is missing
-        const message = document.createElement('p');
-        message.textContent = 'No path parameter found in the URL.';
-        document.body.appendChild(message);
-    }
-</script>
+            // Create an img element
+            const imgElement = document.createElement('img');
+            imgElement.src = newImageURL;
+
+            // Add the img element directly to the body
+            document.body.appendChild(imgElement);
+        } else {
+            // Display a message if the 'path' parameter is missing
+            const message = document.createElement('p');
+            message.textContent = 'No path parameter found in the URL.';
+            document.body.appendChild(message);
+        }
+    </script>
