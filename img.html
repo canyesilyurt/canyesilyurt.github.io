@@ -1,1 +1,39 @@
-<img src="https://img.kwcdn.com/product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg" alt="Furry white cat sitting on a wall">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Redirect</title>
+</head>
+<body>
+    <div id="image-container"></div>
+
+    <script>
+        // Get the URL parameters
+        const params = new URLSearchParams(window.location.search);
+
+        // Check if 'path' parameter exists
+        if (params.has('path')) {
+            // Get the value of 'path' parameter
+            const dynamicPart = params.get('path');
+
+            // Construct new image URL
+            const newImageURL = `https://img.kwcdn.com${dynamicPart}`;
+
+            // Create an img element
+            const imgElement = document.createElement('img');
+            imgElement.src = newImageURL;
+            imgElement.alt = 'Dynamic Product Image';
+
+            // Add the img element to the container
+            const imageContainer = document.getElementById('image-container');
+            imageContainer.appendChild(imgElement);
+        } else {
+            // Display a message if the 'path' parameter is missing
+            const message = document.createElement('p');
+            message.textContent = 'No path parameter found in the URL.';
+            document.body.appendChild(message);
+        }
+    </script>
+</body>
+</html>
