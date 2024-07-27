@@ -1,4 +1,12 @@
-<img id="dynamic-image" alt="Dynamic Product Image" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Redirect</title>
+</head>
+<body>
+    <img id="dynamic-image" alt="Dynamic Product Image" />
 
     <script>
         // Get the URL parameters
@@ -20,14 +28,14 @@
                 imgElement.src = newImageURL;
             } else {
                 // Display a message if the img element is not found
-                const message = document.createElement('p');
-                message.textContent = 'Image element not found on the page.';
-                document.body.appendChild(message);
+                const imgElement = document.getElementById('dynamic-image');
+                imgElement.src = 'product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg';
             }
         } else {
             // Display a message if the 'path' parameter is missing
-            const message = document.createElement('p');
-            message.textContent = 'No path parameter found in the URL.';
-            document.body.appendChild(message);
+            const imgElement = document.getElementById('dynamic-image');
+            imgElement.src = 'product/fancy/243997c6-5a57-4c10-894f-adf72690dd3d.jpg';
         }
     </script>
+</body>
+</html>
