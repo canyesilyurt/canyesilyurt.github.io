@@ -433,7 +433,8 @@
                                                                         }),
                                                                     ]);
                                                                     break;
-                                                                    case "lovu":
+                                                                /*
+                                                                      case "lovu":
                                                                     o([
                                                                         ...l,
                                                                         (0, s.jsx)(k.bs, {
@@ -445,6 +446,7 @@
                                                                         }),
                                                                     ]);
                                                                     break;
+                                                                */
                                                                 case "ls":
                                                                     o([...l, (0, s.jsx)(k.bs, { children: "What is your point man?" })]);
                                                                     break;
