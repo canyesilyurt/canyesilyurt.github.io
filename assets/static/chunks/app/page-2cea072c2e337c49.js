@@ -771,7 +771,7 @@
                                                                     href: "https://cy4u.dev",
                                                                     target: "_blank",
                                                                     children: [
-                                                                        (0, s.jsx)(bWebsite.Z, { size: 32 }),
+                                                                        (0, s.jsx)(bTelegram.Z, { size: 32 }),
                                                                         (0, s.jsxs)("div", {
                                                                             className: "ml-2 flex flex-col items-start",
                                                                             children: [
