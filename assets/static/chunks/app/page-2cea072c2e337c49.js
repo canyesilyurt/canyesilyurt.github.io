@@ -762,7 +762,7 @@
                                                                         (0, s.jsx)(W.Z, { size: 32 }),
                                                                         (0, s.jsxs)("div", {
                                                                             className: "ml-2 flex flex-col items-start",
-                                                                            children: [(0, s.jsx)("span", { children: "cy4udev" }), (0, s.jsx)("span", { className: " text-sm font-normal", children: "Business page" })],
+                                                                            children: [(0, s.jsx)("span", { children: "cy4udev" }), (0, s.jsx)("span", { className: " text-sm font-normal", children: "Telegram channel" })],
                                                                         }),
                                                                     ],
                                                                 }),
