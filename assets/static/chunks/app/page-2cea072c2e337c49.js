@@ -434,6 +434,20 @@
                                                                         }),
                                                                     ]);
                                                                     break;
+                                                                /*
+                                                                      case "lovu":
+                                                                    o([
+                                                                        ...l,
+                                                                        (0, s.jsx)(k.bs, {
+                                                                            children: (0, s.jsx)("div", {
+                                                                                className: " text-wrap text-primary",
+                                                                                children:
+                                                                                    "lovusilaa",
+                                                                            }),
+                                                                        }),
+                                                                    ]);
+                                                                    break;
+                                                                */
                                                                 case "ls":
                                                                     o([...l, (0, s.jsx)(k.bs, { children: "What is your point man?" })]);
                                                                     break;
