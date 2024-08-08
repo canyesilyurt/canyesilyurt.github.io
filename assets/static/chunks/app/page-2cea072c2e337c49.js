@@ -338,7 +338,6 @@
                 H = a(1472),
                 Youtube = a(5000),
                 bWebsite = a(6000);
-                bTelegram = a(7000);
 
             function K() {
                 let { theme: e } = (0, h.F)(),
@@ -434,20 +433,6 @@
                                                                         }),
                                                                     ]);
                                                                     break;
-                                                                /*
-                                                                      case "lovu":
-                                                                    o([
-                                                                        ...l,
-                                                                        (0, s.jsx)(k.bs, {
-                                                                            children: (0, s.jsx)("div", {
-                                                                                className: " text-wrap text-primary",
-                                                                                children:
-                                                                                    "lovusilaa",
-                                                                            }),
-                                                                        }),
-                                                                    ]);
-                                                                    break;
-                                                                */
                                                                 case "ls":
                                                                     o([...l, (0, s.jsx)(k.bs, { children: "What is your point man?" })]);
                                                                     break;
@@ -762,26 +747,10 @@
                                                                         (0, s.jsx)(W.Z, { size: 32 }),
                                                                         (0, s.jsxs)("div", {
                                                                             className: "ml-2 flex flex-col items-start",
-                                                                            children: [(0, s.jsx)("span", { children: "cy4udev" }), (0, s.jsx)("span", { className: " text-sm font-normal", children: "Telegram channel" })],
+                                                                            children: [(0, s.jsx)("span", { children: "cy4udev" }), (0, s.jsx)("span", { className: " text-sm font-normal", children: "Business page" })],
                                                                         }),
                                                                     ],
                                                                 }),
-                                                                (0, s.jsxs)("a", {
-                                                                    className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover transition-all",
-                                                                    href: "https://cy4u.dev",
-                                                                    target: "_blank",
-                                                                    children: [
-                                                                        (0, s.jsx)(bTelegram.Z, { size: 32 }),
-                                                                        (0, s.jsxs)("div", {
-                                                                            className: "ml-2 flex flex-col items-start",
-                                                                            children: [
-                                                                                (0, s.jsx)("span", { children: "cy4udev" }),
-                                                                                (0, s.jsx)("span", { className: "text-sm font-normal", children: "Business website" }),
-                                                                            ],
-                                                                        }),
-                                                                    ],
-                                                                }),
-
 
 
 
