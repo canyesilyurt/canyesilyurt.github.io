@@ -337,7 +337,8 @@
                 q = a(1977),
                 H = a(1472),
                 Youtube = a(5000),
-                bWebsite = a(6000);
+                bWebsite = a(6000),
+                bTelegram = a(7000);
 
             function K() {
                 let { theme: e } = (0, h.F)(),
@@ -751,6 +752,37 @@
                                                                         }),
                                                                     ],
                                                                 }),
+                                                                (0, s.jsxs)("a", {
+                                                                    className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover transition-all",
+                                                                    href: "https://t.me/cy4udev",
+                                                                    target: "_blank",
+                                                                    children: [
+                                                                        (0, s.jsx)(bTelegram.Z, { size: 32 }),
+                                                                        (0, s.jsxs)("div", {
+                                                                            className: "ml-2 flex flex-col items-start",
+                                                                            children: [
+                                                                                (0, s.jsx)("span", { children: "cy4udev" }),
+                                                                                (0, s.jsx)("span", { className: "text-sm font-normal", children: "Telegram channel" }),
+                                                                            ],
+                                                                        }),
+                                                                    ],
+                                                                }),
+                                                                (0, s.jsxs)("a", {
+                                                                    className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover transition-all",
+                                                                    href: "https://www.youtube.com/@cy4udev",
+                                                                    target: "_blank",
+                                                                    children: [
+                                                                        (0, s.jsx)(Youtube.Z, { size: 32 }),
+                                                                        (0, s.jsxs)("div", {
+                                                                            className: "ml-2 flex flex-col items-start",
+                                                                            children: [
+                                                                                (0, s.jsx)("span", { children: "cy4udev" }),
+                                                                                (0, s.jsx)("span", { className: "text-sm font-normal", children: "Youtube channel" }),
+                                                                            ],
+                                                                        }),
+                                                                    ],
+                                                                }),
+                                               
 
 
 
