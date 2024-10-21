@@ -385,7 +385,7 @@
                                         children: (0, s.jsxs)("div", {
                                             className: "flex items-center gap-2 ",
                                             children: [
-                                                (0, s.jsxs)(j, { children: [(0, s.jsx)(w, { alt: "canyesilyurt", src: "https://www.canyesilyurt.com/assets/static/images/photo.jpeg" }), (0, s.jsx)(N, { children: "CY" })] }),
+                                                (0, s.jsxs)(j, { children: [(0, s.jsx)(w, { alt: "canyesilyurt", src: "https://canyesilyurt.com/assets/static/images/photo.jpeg" }), (0, s.jsx)(N, { children: "CY" })] }),
                                                 (0, s.jsxs)("div", {
                                                     className: "flex flex-col gap-[1px] text-left",
                                                     children: [
