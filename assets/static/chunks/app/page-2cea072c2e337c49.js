@@ -385,7 +385,7 @@
                                         children: (0, s.jsxs)("div", {
                                             className: "flex items-center gap-2 ",
                                             children: [
-                                                (0, s.jsxs)(j, { children: [(0, s.jsx)(w, { alt: "canyesilyurt", src: "https://media.licdn.com/dms/image/D4D03AQEAMzuy6NH7Yw/profile-displayphoto-shrink_800_800/0/1701094143877?e=1726099200&v=beta&t=VINJhJieFhfpLXHAq-J8OUzdJ71CLMznX-967gSsTig" }), (0, s.jsx)(N, { children: "CY" })] }),
+                                                (0, s.jsxs)(j, { children: [(0, s.jsx)(w, { alt: "canyesilyurt", src: "https://www.canyesilyurt.com/assets/static/images/photo.jpeg" }), (0, s.jsx)(N, { children: "CY" })] }),
                                                 (0, s.jsxs)("div", {
                                                     className: "flex flex-col gap-[1px] text-left",
                                                     children: [
